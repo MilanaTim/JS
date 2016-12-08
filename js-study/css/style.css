@@ -4,6 +4,21 @@ body {
 	font-size: 1.1em;
 	color: #333333;
 }
+body > div {
+	margin-bottom: 20px;
+}
+a {
+	font-size: 0.8em;
+	color: #fff;
+	text-decoration: none;
+	padding: 4px 10px;
+	border-radius: 5px;
+	background-color: #369108;
+}
+a:hover, a:focus {
+	box-shadow: 0 1px 5px 1px #369108;
+
+}
 h2 {
 	color: #333333;
 	font-size: 1.2em;
@@ -13,10 +28,11 @@ button {
 	color: #fff;
 	border-radius: 5px;
 	background-color: #175E82;
-	border: 0;
+	border: none;
 	padding: 4px 10px;
+	margin: 5px 20px 5px 0;
 }
-button:hover, button:focus,  button:active {
+button:hover, button:focus {
 	outline: none;
 	box-shadow: 0 1px 5px 1px #175E82;
 } 
@@ -26,6 +42,5 @@ button:hover, button:focus,  button:active {
 	}
 	button {
 		font-size: 1.2em;
-
 	}
 }
