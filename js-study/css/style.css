@@ -36,6 +36,24 @@ button:hover, button:focus {
 	outline: none;
 	box-shadow: 0 1px 5px 1px #175E82;
 } 
+/* PAGE_2 */
+div#two_buttons {
+	height: 120px;
+	position: relative;
+}
+div#two_buttons button {
+	position: absolute;
+	bottom: 5px;
+}
+div#two_buttons button:nth-last-child(1) {
+	position: absolute;
+	bottom: 5px;
+	left: 100px;
+}
+p#demo_6 {
+	display: none;
+}
+/* END PAGE_2 */
 @media (max-width: 767px) {
 	p {
 		font-size: 5vw;

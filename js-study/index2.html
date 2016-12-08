@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 	<script>
 		function myFunction() {
-			document.getElementById("demo_6").innerHTML = "JS in the &lt;head&gt;.";
+			document.getElementById("demo_6").style.display = "block";
 		}
 		function myFunction2() {
 			document.getElementById("demo_6").style.display = "none";
@@ -17,13 +17,16 @@
 	<title>Page_2</title>
 </head>
 <body>
-	<div class="col-xs-12">
+	<div class="col-xs-12" id="two_buttons">
 		<h2>JavaScript in the &lt;head&gt; section of an HTML document</h2>
-		<p id="demo_6"></p>
+		<p id="demo_6">JS in the &lt;head&gt;.</p>
 		<button type="button" onclick="myFunction()">Click to see</button>
 		<button type="button" onclick="myFunction2()">Click to hide</button>
-
-	
+	</div>	
+	<div class="col-xs-12">
+		<a class="page_2" href="index.html">Go to JavaScript Study</a>
 	</div>
+	
+
 </body>
 </html>
