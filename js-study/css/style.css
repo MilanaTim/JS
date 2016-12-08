@@ -25,6 +25,7 @@ h2 {
 }
 button {
 	font-family: 'Droid Serif', serif;
+	font-size: 0.8em;
 	color: #fff;
 	border-radius: 5px;
 	background-color: #175E82;
@@ -45,9 +46,8 @@ div#two_buttons button {
 	position: absolute;
 	bottom: 5px;
 }
-div#two_buttons button:nth-last-child(1) {
+button.number_two {
 	position: absolute;
-	bottom: 5px;
 	left: 100px;
 }
 p#demo_6 {
@@ -56,9 +56,18 @@ p#demo_6 {
 /* END PAGE_2 */
 @media (max-width: 767px) {
 	p {
-		font-size: 5vw;
+		font-size: 4vw;
 	}
 	button {
-		font-size: 1.2em;
+		font-size: 0.8em;
+	}
+	div#two_buttons {
+	height: 160px;
+}
+div#two_buttons button:nth-child(1) {
+	bottom: 20px;
+}
+	div#two_buttons button:nth-last-child(1) {
+	bottom: 5px;
 	}
 }
