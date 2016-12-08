@@ -16,6 +16,10 @@ button {
 	border: 0;
 	padding: 4px 10px;
 }
+button:hover, button:focus,  button:active {
+	outline: none;
+	box-shadow: 0 1px 5px 1px #175E82;
+} 
 @media (max-width: 767px) {
 	p {
 		font-size: 5vw;
