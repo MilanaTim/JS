@@ -54,21 +54,29 @@ p#demo_6 {
 	display: none;
 }
 /* END PAGE_2 */
+
+/* PAGE_3 */
+body#third_page div#two_buttons {
+	height: 340px;
+}
+/* END PAGE_3 */
 @media (max-width: 767px) {
 	p {
 		font-size: 6vw;
 	}
 	a {
-	font-size: 1.1em;
+		font-size: 1.1em;
 	}
 	button {
 		font-size: 1.1em;
 	}
+/* Page_2 */
 	div#two_buttons {
-	height: 160px;
+		height: 160px;
 	}	
 	button.number_two {
-	position: absolute;
-	left: 140px;
+		position: absolute;
+		left: 140px;
 	}
+/* End Page_2 */
 }
