@@ -56,19 +56,19 @@ p#demo_6 {
 /* END PAGE_2 */
 @media (max-width: 767px) {
 	p {
-		font-size: 5vw;
+		font-size: 6vw;
 	}
 	a {
-	font-size: 0.9em;
+	font-size: 1.1em;
 	}
 	button {
-		font-size: 0.9em;
+		font-size: 1.1em;
 	}
 	div#two_buttons {
-	height: 140px;
+	height: 160px;
 	}	
 	button.number_two {
 	position: absolute;
-	left: 120px;
+	left: 140px;
 	}
 }
